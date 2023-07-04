@@ -1,5 +1,6 @@
 // 1. Entity Class:
 
+```
 public class Order
 {
 public int Id { get; set; }
@@ -7,6 +8,7 @@ public string CustomerName { get; set; }
 public DateTime OrderDate { get; set; }
 // Other properties and behaviors specific to an order
 }
+```
 
 //2. Value Object Class:
 
