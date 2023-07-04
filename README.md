@@ -64,7 +64,7 @@ public interface IOrderRepository
 
 public class OrderService
 {
-    private readonly IOrderRepository \_orderRepository;
+    private readonly IOrderRepository _orderRepository;
 
     public OrderService(IOrderRepository orderRepository)
     {
@@ -189,8 +189,8 @@ public interface IOrderRepository
 
 public class OrderService
 {
-    private readonly IOrderRepository \_orderRepository;
-    private readonly ShoppingCart \_shoppingCart;
+    private readonly IOrderRepository _orderRepository;
+    private readonly ShoppingCart _shoppingCart;
 
         public OrderService(IOrderRepository orderRepository, ShoppingCart shoppingCart)
         {
