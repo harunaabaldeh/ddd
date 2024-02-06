@@ -230,4 +230,4 @@ public class OrderService
 
 ```
 
-In the expanded code snippets, we have added additional methods to calculate the total order amount, perform currency conversions, and handle shopping cart operations. The OrderService now interacts with the ShoppingCart and performs the checkout process, including payment processing and persisting the order in the repository.
+In the expanded code snippets, I have added additional methods to calculate the total order amount, perform currency conversions, and handle shopping cart operations. The OrderService now interacts with the ShoppingCart and performs the checkout process, including payment processing and persisting the order in the repository.
